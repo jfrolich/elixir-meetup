@@ -1,0 +1,3 @@
+%{
+  "faker_elixir_octopus": {:hex, :faker_elixir_octopus, "1.0.2", "9895a5cbd08ba47ec70aa04dd91077ff57abe6e49239e853c5f6969e106ce997", [:mix], [], "hexpm"},
+}
