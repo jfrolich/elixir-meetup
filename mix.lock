@@ -1,3 +1,5 @@
 %{
+  "defer": {:hex, :defer, "0.1.1", "ea68730d6fd70cc43ad145cd8ec9108832d8748bf0cb7a4f21020e8be9878a07", [:mix], [], "hexpm"},
   "faker_elixir_octopus": {:hex, :faker_elixir_octopus, "1.0.2", "9895a5cbd08ba47ec70aa04dd91077ff57abe6e49239e853c5f6969e106ce997", [:mix], [], "hexpm"},
+  "lazyloader": {:hex, :lazyloader, "2.0.1", "69b7ef1c7f701ee2c0cf86d5f790a210b97ea74a5972db33ff5e46cdd7224bb2", [:mix], [{:defer, ">= 0.1.1", [hex: :defer, repo: "hexpm", optional: false]}, {:ecto, ">= 0.0.0", [hex: :ecto, repo: "hexpm", optional: true]}], "hexpm"},
 }

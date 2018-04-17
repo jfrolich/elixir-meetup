@@ -23,8 +23,8 @@ defmodule Meetup.MixProject do
   defp deps do
     [
       {:faker_elixir_octopus, "~> 1.0.0", only: [:dev, :test]},
-      {:defer, path: "../defer"},
-      {:dataloader, path: "../dataloader"}
+      {:defer, ">= 0.1.1"},
+      {:lazyloader, ">= 2.0.1", app: false}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
     ]
