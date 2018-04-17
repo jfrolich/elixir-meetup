@@ -1,0 +1,13 @@
+query {
+  profile {
+    bestFriend {
+      name
+    }
+    friends(first: 5) {
+      name
+      bestFriend {
+        name
+      }
+    }
+  }
+}
